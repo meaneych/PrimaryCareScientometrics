@@ -7,8 +7,11 @@ The notebooks make use of a number of R/Python libraries, including:
 - rscopus: for querying author publication information from the Scopus API.
 - rAltmetrics: for querying altmetrics information from the Altmetrics API.
 - sklearn: for unsupervised topic modelling.
+- hyperopt: for NMF topic modelling hyper-parameter optimization.
+- gensim: for topic coherence metrics.
 - NLTK: for natural language processing.
 - igraph: for network scientific modelling and analytics.
+- ggplot: for heatmaps and related graphics.
 
 The input to these sequential notebooks are a few hundred Scopus IDs (unique to a given author). As a primary care biostatistician, we focused on extracting N=658 Scopus IDs corresponding to researchers embedded within one of seventeen international primary care research institutions (from Canada, the United States, the United Kingdom, Australia, and Asia). The goal of our analyses were to characterize research outputs/impacts generated from researchers embedded within these select primary care institutions.
 
